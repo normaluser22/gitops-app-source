@@ -9,6 +9,6 @@ COPY app.py .
 
 ENV APP_VERSION=v1
 
-EXPOSE5000
+EXPOSE 5000
 
 CMD ["python","app.py"]
